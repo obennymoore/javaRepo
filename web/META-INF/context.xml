@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/DeTechDLI">
+    <Resource name="jdbc/detech" auth="Container"
+        maxActive="100" maxIdle="30" maxWait="10000"
+        username="detech" password="tech"
+        driverClassName="oracle.jdbc.OracleDriver"
+        url="jdbc:oracle:thin:@localhost:1521:xe"
+        logAbandoned="true" removeAbandoned="true"
+        removeAbandonedTimeout="60" type="javax.sql.DataSource" />
+</Context>
